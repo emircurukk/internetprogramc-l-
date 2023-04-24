@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Ekranı</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="girisFonksiyonu()">
+            <div class="avatar">
+                <img src="./avatar.png" width="200px" alt="">
+            </div>
+            <label for="kadi2">Kullanıcı Adı</label><br>
+            <input type="text" name="kadi2" id="kadi2"><br>
+            <label for="pass2">Parola</label><br>
+            <input type="password" name="pass2" id="pass2"><br>
+            <button type="submit">Giriş Yap</button><br>
+            <p id="sonuc2">Giriş Ekranına Hoş Geldiniz...</p>
+            <a href="/index.html" target="_blank">
+                <input type="button" value="Kayıt Sayfasına Git">
+            </a>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
